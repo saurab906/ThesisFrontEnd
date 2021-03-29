@@ -13,6 +13,6 @@ public interface SignInAPI {
     @POST("/user/register") //tocall
     Call<SignInResponse> registerUser(@Body SignIn signIn);
     @FormUrlEncoded
-    @POST("/user/sign-in")
+    @POST("/api/sign-in")
     Call<SignInResponse>checkUser(@Field("email") String name, @Field("password")String password);
 }
