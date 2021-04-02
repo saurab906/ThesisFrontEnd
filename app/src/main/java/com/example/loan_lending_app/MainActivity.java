@@ -80,7 +80,7 @@ Button btnLogin;
                             startActivity(new Intent(MainActivity.this, Dashboard.class));
                         } else {
 
-                            startActivity(new Intent(MainActivity.this, Registration.class));
+                            startActivity(new Intent(MainActivity.this, KYC_document.class));
                         }
                         //Toast.makeText(this, decoded, Toast.LENGTH_LONG).show();
                     } catch (Exception e) {

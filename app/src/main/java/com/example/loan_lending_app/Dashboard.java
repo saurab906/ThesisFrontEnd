@@ -25,7 +25,7 @@ public class Dashboard extends AppCompatActivity {
         Profile.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                 Intent intent = new Intent(Dashboard.this, KYC_document.class);
+                 Intent intent = new Intent(Dashboard.this, Payment_Method.class);
                  startActivity(intent);
             }
         });
